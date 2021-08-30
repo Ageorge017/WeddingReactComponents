@@ -1,0 +1,70 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-name {
+  font: 900 24px/18px Dosis, Arial;
+  color: #333;
+  text-transform: uppercase;
+  position: relative;
+  top: 22px;
+}
+
+.logo {
+  float: left;
+}
+.logo-date {
+  position: relative;
+  transition: all 0.3s;
+  opacity: 1;
+  text-transform: none;
+  font-weight: bold;
+  font: italic 400 14px/24px Playfair Display, Arial;
+  top: 18px;
+}
+
+.navbarContent {
+  position: relative;
+  right: 0;
+  top: -33px;
+  height: 78px;
+  font: 400 18px/18px Dosis;
+  float: right;
+}
+
+.navbarItem {
+  float: left;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: block;
+  padding: 32px 20px;
+  transition: all 0.3s;
+  height: 84px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 32px 20px;
+  height: 84px;
+  text-decoration: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #6f6f6f;
+}
